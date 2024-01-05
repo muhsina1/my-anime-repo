@@ -1,0 +1,21 @@
+.image{
+   height: 600px;
+   width: 1000px;
+}
+.nature{
+    border: 1px solid silver;
+    margin-top: 200px;
+}
+.sun{
+    position:relative;
+    right: 320px;
+    bottom: 280px;
+    
+}
+
+.nature:hover .sun{
+    transition:transform 5s ease 0.05s;
+    transform: translate(-250px, -300px);
+    
+    
+}
